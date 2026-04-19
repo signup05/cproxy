@@ -14,7 +14,7 @@
 
 ## 현재 범위와 한계
 
-이 프로젝트는 학습과 포트폴리오 설명에 초점을 둔 경량 구현입니다.
+이 프로젝트는 c언어 학습과 프록시 구성에 초점을 두었습니다.
 
 - 일반 HTTP forwarding만 지원합니다.
 - HTTPS `CONNECT` tunneling은 지원하지 않습니다.
@@ -115,9 +115,7 @@ curl -x http://127.0.0.1:8080 http://example.com/
 
 - [아키텍처 메모](docs/architecture.md)
 
-## 포트폴리오 관점
-
-`cproxy`는 단순 echo server를 넘어 다음 내용을 보여주기 좋은 프로젝트입니다.
+## 이 프로젝트의 목표
 
 - TCP 서버 생명주기와 socket API 사용
 - HTTP 요청 구조에 대한 이해
