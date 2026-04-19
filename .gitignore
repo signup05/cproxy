@@ -1,0 +1,8 @@
+cproxy
+src/*.o
+.codex
+
+# Local notes that are not part of the cproxy project package
+docs/explorer-troubleshooting-session-*.md
+docs/notion-study-summary.md
+docs/study-notes.md
