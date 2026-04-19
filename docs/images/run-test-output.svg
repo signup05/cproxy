@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">cproxy run and test output</title>
+  <desc id="desc">Terminal-style screenshot showing cproxy running on port 18080 and curl receiving an Example Domain response through the proxy.</desc>
+  <rect width="980" height="360" rx="10" fill="#111827"/>
+  <rect x="0" y="0" width="980" height="42" rx="10" fill="#1f2937"/>
+  <circle cx="24" cy="21" r="6" fill="#ef4444"/>
+  <circle cx="44" cy="21" r="6" fill="#f59e0b"/>
+  <circle cx="64" cy="21" r="6" fill="#10b981"/>
+  <text x="88" y="27" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="15">cproxy run and proxy test</text>
+  <text x="28" y="78" fill="#93c5fd" font-family="Consolas, Menlo, monospace" font-size="17">$ ./cproxy 18080</text>
+  <text x="28" y="108" fill="#e5e7eb" font-family="Consolas, Menlo, monospace" font-size="17">starting cproxy on port 18080</text>
+  <text x="28" y="138" fill="#e5e7eb" font-family="Consolas, Menlo, monospace" font-size="17">cproxy listening on port 18080</text>
+  <text x="28" y="182" fill="#93c5fd" font-family="Consolas, Menlo, monospace" font-size="17">$ curl -x http://127.0.0.1:18080 http://example.com/</text>
+  <text x="28" y="212" fill="#d1fae5" font-family="Consolas, Menlo, monospace" font-size="17">curl_status=0</text>
+  <text x="28" y="242" fill="#e5e7eb" font-family="Consolas, Menlo, monospace" font-size="17">&lt;!doctype html&gt;&lt;html lang="en"&gt;&lt;head&gt;&lt;title&gt;Example Domain&lt;/title&gt;...</text>
+  <text x="28" y="286" fill="#93c5fd" font-family="Consolas, Menlo, monospace" font-size="17">server log</text>
+  <text x="28" y="316" fill="#e5e7eb" font-family="Consolas, Menlo, monospace" font-size="17">[thread:140546588841536] GET / -&gt; example.com:80</text>
+</svg>

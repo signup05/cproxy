@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="230" viewBox="0 0 980 230" role="img" aria-labelledby="title desc">
+  <title id="title">cproxy error output</title>
+  <desc id="desc">Terminal-style screenshot showing cproxy usage output when an unsupported help argument is passed.</desc>
+  <rect width="980" height="230" rx="10" fill="#111827"/>
+  <rect x="0" y="0" width="980" height="42" rx="10" fill="#1f2937"/>
+  <circle cx="24" cy="21" r="6" fill="#ef4444"/>
+  <circle cx="44" cy="21" r="6" fill="#f59e0b"/>
+  <circle cx="64" cy="21" r="6" fill="#10b981"/>
+  <text x="88" y="27" fill="#d1d5db" font-family="Consolas, Menlo, monospace" font-size="15">cproxy argument error output</text>
+  <text x="28" y="82" fill="#93c5fd" font-family="Consolas, Menlo, monospace" font-size="17">$ ./cproxy --help</text>
+  <text x="28" y="122" fill="#fecaca" font-family="Consolas, Menlo, monospace" font-size="17">usage: ./cproxy [port]</text>
+  <text x="28" y="162" fill="#fcd34d" font-family="Consolas, Menlo, monospace" font-size="17">exit status: 1</text>
+</svg>
