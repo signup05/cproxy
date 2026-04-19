@@ -33,8 +33,7 @@ cproxy/
 ├── Makefile
 ├── README.md
 ├── docs/
-│   ├── architecture.md
-│   └── portfolio-summary.md
+│   └── architecture.md
 ├── include/
 │   ├── http.h
 │   └── proxy.h
@@ -125,7 +124,6 @@ Client -> cproxy -> Upstream Server -> cproxy -> Client
 ## 문서
 
 - [아키텍처 메모](docs/architecture.md)
-- [포트폴리오 요약](docs/portfolio-summary.md)
 
 ## 포트폴리오 관점
 
