@@ -1,6 +1,8 @@
 cproxy
 src/*.o
 .codex
+*:Zone.Identifier
+*Zone.Identifier
 
 # Local notes that are not part of the cproxy project package
 docs/explorer-troubleshooting-session-*.md
